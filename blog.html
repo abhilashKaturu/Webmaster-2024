@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Home Solutions</title>
+    <title>Blog and News - Green Home Solutions</title>
     <style>
+        /* Your existing styles remain here */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -66,60 +67,25 @@
             text-align: center;
         }
         
-        #importance-section {
-            background-color: #ecf0f1;
-            padding: 3em;
+        /* Additional styles specific to this page */
+        section.blog-post {
             margin: 2em 0;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            animation: fadeInUp 1s ease-out;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        #importance-section img {
-            width: 45%;
+            padding: 1em;
+            border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-out;
         }
 
-        #importance-section div {
-            width: 50%;
-        }
-
-        #importance-section h2 {
+        section.blog-post h2 {
             color: #3498db;
         }
 
-        #importance-section p {
+        section.blog-post p {
             color: #555;
             font-size: 1.1em;
             line-height: 1.6;
         }
-        .main-image {
-            width: 100%;
-            max-width: 800px;
-            height: auto;
-            display: block;
-            margin: 2em auto;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            animation: fadeInUp 1s ease-out;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
         footer {
             background-color: #34495e;
             color: white;
@@ -130,41 +96,57 @@
 </head>
 
 <body>
+    <!-- Your existing header and navigation code remain here -->
     <header>
         <h1 style="font-size: 2em;">Green Home Solutions</h1>
         <p style="font-size: 1.2em;">Your guide to sustainable living</p>
     </header>
 
     <nav>
-        <a href="#home">Home</a>
+        <a href="index.html">Home</a>
         <a href="energysolutions.html">Home Solutions</a>
         <a href="cost&rebates.html">Costs & Rebates</a>
         <a href="greenliving.html">Clean/Green Energy Practices</a>
         <a href="blog.html"> Blog/News</a>
         <a href = "aboutme.html" > About Me</a>
     </nav>
+    <!-- Blog and News Section -->
+    <section class="sub-section">
+        <h2>Blog and News</h2>
 
-    <section>
-        <h2 style="color: #2ecc71;">Welcome to Green Home Solutions</h2>
-        <p style="color: #555;">Discover eco-friendly solutions for your home, learn about cost-effective practices, and
-            find out about available rebates.</p>
-        <img src="your-image-url.jpg" alt="Green Home" class="main-image">
+        <!-- Blog Post 1 -->
+        <section class="blog-post">
+            <h2>Exploring Sustainable Energy Solutions</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt arcu at velit tristique,
+                vel vestibulum orci viverra. Quisque vel libero vel dolor euismod congue. Nullam nec efficitur
+                velit, vel varius nisi.
+            </p>
+            <p>
+                <a href="#">Read More</a>
+            </p>
+        </section>
+
+        <!-- Blog Post 2 -->
+        <section class="blog-post">
+            <h2>The Importance of Recycling in Our Daily Lives</h2>
+            <p>
+                Nulla facilisi. Etiam in gravida odio. Vestibulum mattis malesuada quam, a vulputate urna
+                condimentum id. Fusce quis interdum tortor.
+            </p>
+            <p>
+                <a href="#">Read More</a>
+            </p>
+        </section>
+
+        <!-- Add more blog posts as needed -->
+
     </section>
-    <!-- New Importance Section -->
-    <section id="importance-section">
-        <img src="importance-image-url.jpeg" alt="Importance of Green Energy">
-        <div>
-            <h2>Why Switch to Green Energy Initiatives?</h2>
-            <p>Switching to green energy is not just a choice; it's a necessity for a sustainable future. By embracing
-                eco-friendly practices, you contribute to reducing carbon emissions, preserving natural resources, and
-                creating a healthier environment for generations to come. The financial benefits, coupled with the positive
-                impact on our planet, make the switch to green energy an imperative for responsible homeowners.</p>
-        </div>
-    </section>
-    
+
+    <!-- Your existing footer code remains here -->
     <footer>
         <p style="font-size: 0.8em;">&copy; 2024 Green Home Solutions. All rights reserved.</p>
     </footer>
-    </body>
-    
-    </html>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Green Home Solutions</title>
+    <style>
+        /* Your existing styles remain here */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        header {
+            background-color: #2ecc71;
+            padding: 1em;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #34495e;
+            padding: 0.5em;
+            animation: slideInDown 1s ease-out;
+        }
+
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+        
+        /* Additional styles specific to this page */
+        section.sub-section {
+            background-color: #ecf0f1;
+            padding: 3em;
+            margin: 2em 0;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-out;
+            text-align: left;
+        }
+
+        section.sub-section h2 {
+            color: #3498db;
+        }
+
+        section.sub-section p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        section.sub-section img {
+            width: 150px;
+            border-radius: 50%;
+            margin: 1em 0;
+        }
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<header>
+    <h1 style="font-size: 2em;">Green Home Solutions</h1>
+    <p style="font-size: 1.2em;">Your guide to sustainable living</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="energysolutions.html">Home Solutions</a>
+    <a href="cost&rebates.html">Costs & Rebates</a>
+    <a href="greenliving.html">Clean/Green Energy Practices</a>
+    <a href="blog.html"> Blog/News</a>
+    <a href = "aboutme.html" > About Me</a>
+</nav>
+<body>
+    <!-- About Me Section -->
+    <section class="sub-section">
+        <h2>About Me</h2>
+        <img src="people.png" alt="Your Profile Image">
+        <p>
+            Welcome to Green Home Solutions! we are the founder of this platform dedicated to promoting
+            sustainable living and eco-friendly practices. With a passion for environmental conservation, we aim to
+            provide valuable information and resources to empower individuals and communities towards a greener future.
+        </p>
+        <p>
+            Our journey in sustainable living began with a commitment to making environmentally conscious choices in
+            daily life. Through Green Home Solutions, we aspire to share insights, tips, and practical solutions that
+            contribute to a healthier planet for current and future generations.
+        </p>
+        <p>
+            Join us on this eco-friendly journey, and let's make a positive impact together. Feel free to explore the
+            various sections of the website for valuable information on green energy, recycling, and sustainable
+            practices.
+        </p>
+    </section>
+    <footer>
+        <p style="font-size: 0.8em;">&copy; 2024 Green Home Solutions. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
